@@ -165,7 +165,7 @@ header.sticky{
 
 .products{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    grid-template-columns: auto auto auto auto;;
     gap: 2rem;
 }
 
