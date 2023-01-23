@@ -179,3 +179,135 @@ header.sticky{
     height: auto;
     transition: all .40s;
 }
+
+.row img:hover{
+    transform: scale(0.9);
+}
+
+.product-text h5{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #27b737;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+.heart-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+
+.heart-icon:hover{
+    color: #ee1c47;
+}
+
+.rating i{
+    color: #ff8c00;
+    font-size: 18px;
+}
+
+.price h4{
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.price p{
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.client-reviews{
+    background-color: #f3f4f6;
+}
+
+.reviews{
+    text-align: center;
+}
+
+.reviews h3{
+    color: #111;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+
+.reviews img{
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+.reviews p{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.reviews h2{
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+/* updare-section-css */
+.up-center-text h2{
+    text-align: center;
+    color: #111;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.cart img{
+    width: 380px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.update-cart{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+.cart h5{
+   color: #636872;
+   font-size: 15px;
+   text-transform: capitalize;
+   font-weight: 500;
+}
+
+.cart h4{
+    color: #111;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.cart p{
+    color: #111;
+    font-size: 15px;
+    max-width: 380px;
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+
+.cart h6{
+    color:#151515;
+    font-size: 13px;
+    font-weight: 500;
+}
