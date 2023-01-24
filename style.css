@@ -311,3 +311,26 @@ header.sticky{
     font-size: 13px;
     font-weight: 500;
 }
+
+/* contact-section */
+.contact{
+    background-color: #f3f4f6;
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 3rem;
+}
+
+.first-info img{
+    width: 140px;
+    height: auto;
+}
+
+.contact-info h4{
+    color: #212529;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
