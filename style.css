@@ -346,7 +346,7 @@ header.sticky{
 }
 
 .contact-info p:hover{
-    color: #f7250a;    
+    color: #ee1c47;    
 }
 
 .social-icon i{
@@ -398,7 +398,7 @@ header.sticky{
     .navmenu{
         position: absolute;
         top: 100%;
-        right: 0;
+        right: -100%;
         width: 300px;
         height: 130vh;
         background: #edfff1;
@@ -408,4 +408,12 @@ header.sticky{
         padding: 120px 30px;
         transition: all .42s;
     }
+    .navmenu a{
+        display: block;
+        margin: 18px 0;
+    }
+    .navmenu.open{
+        right: 0;
+    }
 }
+
