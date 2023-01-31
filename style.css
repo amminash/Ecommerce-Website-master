@@ -73,7 +73,7 @@ section{
 .main-home{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/banner-3.png);
+    background-image: url(./images/banner.png);
     background-position: center;
     background-size: cover;
     display: grid;
@@ -168,6 +168,15 @@ header.sticky{
     grid-template-columns: auto auto auto auto;
     gap: 2rem;
 }
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+    .products{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+    }
+  }
 
 .row{
     position: relative;
@@ -282,7 +291,8 @@ header.sticky{
 .update-cart{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 1rem;
+    gap: 2rem;
+    padding: 15px auto;
 }
 
 .cart h5{
@@ -318,6 +328,7 @@ header.sticky{
 }
 
 .contact-info{
+    margin: 30px auto;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     gap: 3rem;
